@@ -1,4 +1,3 @@
-/*if you want a group of lines in c++ to be run again and again with different values, you have to use functions*/
 #include<iostream>
 using namespace std;
 int largerNumber(int n1, int n2){
@@ -11,10 +10,10 @@ int largerNumber(int n1, int n2){
     return result;
 }
 int main(){
-    int a=10,b=20, ret;
+    int a=10,b=20, result;
 
-    ret = largerNumber(a,b);
-    cout<<"The greater number of the two is "<<ret;
+    result = largerNumber(a,b);
+    cout<<"The greater number of the two is "<<result;
     return 0;
 }
 /*#include<iostream>
